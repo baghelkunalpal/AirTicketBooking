@@ -3,7 +3,7 @@ const { StatusCodes } = require('http-status-codes');
 const { BookingService } = require('../services/index');
 
 // const { createChannel, publishMessage } = require('../utils/messageQueue');
-// const { REMINDER_BINDING_KEY } = require('../config/serverConfig');
+const { REMINDER_BINDING_KEY } = require('../config/serverConfig');
 
 const bookingService = new BookingService();
 
